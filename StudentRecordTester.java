@@ -19,9 +19,9 @@ public class StudentRecordTester
         student[1] = new StudentRecord(b);
         student[2] = new StudentRecord(c);
         
-        System.out.println(student[0].average(0,1));
+        //System.out.println(student[0].average(0,1));
+        System.out.println(student[0].hasImproved());
         
-    
         
     }
     
