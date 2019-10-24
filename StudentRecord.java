@@ -63,6 +63,10 @@ public class StudentRecord
     */
    public double finalAverage()
    {
-      return 0; //here so the class compiles
+      if(hasImproved())
+      return average(scores.length/2, scores.length - 1);
+      else
+      return average(0, scores.length -1);
+      //here so the class compiles
    } 
 }
